@@ -5,7 +5,7 @@ import REVENUE_FIELD from "@salesforce/schema/Account.AnnualRevenue";
 import INDUSTRY_FIELD from "@salesforce/schema/Account.Industry";
 
 export default class LdsGetRecordProperty extends LightningElement {
-  recordId = "0011700001Ut0BOAAZ";
+  recordId = "0017i00001bBJlWAAW";
 
   @wire(getRecord, {
     recordId: "$recordId",

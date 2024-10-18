@@ -10,7 +10,7 @@ import { reduceErrors } from "c/ldsUtils";
 import REVENUE_FIELD from "@salesforce/schema/Account.AnnualRevenue";
 
 export default class LdsUpdateRecord extends LightningElement {
-  recordId = "0011700001Ut0BOAAZ";
+  recordId = "0017i00001bBJlWAAW";
   newAnnualRevenue;
 
   @wire(getRecord, {

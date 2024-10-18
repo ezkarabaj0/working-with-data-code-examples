@@ -14,8 +14,8 @@
 
 1. Create a scratch org and provide it with an alias (**working-with-data-code-examples** in the command below):
 
-   ```
-   sfdx force:org:create -s -f config/project-scratch-def.json -a working-with-data-code-examples
+   ```sfdx force:org:create -s -f config/project-scratch-def.json -a working-with-data-code-examples
+   
    ```
 
 1. Push the app to your scratch org:
@@ -36,4 +36,4 @@
    sfdx force:org:open
    ```
 
-1. Find an Account in your org and do a search & replace on the code, as the account Id is hardcoded to "0011700001Ut0BOAAZ". Then push again.
+1. Find an Account in your org and do a search & replace on the code, as the account Id is hardcoded to "0017i00001bBJlWAAW". Then push again.
